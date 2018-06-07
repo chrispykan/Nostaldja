@@ -8,7 +8,7 @@ class Decade(models.Model):
       return self.start_year
 
 
-class Fads(models.Model):
+class Fad(models.Model):
     name = models.CharField(max_length=100)
     image_url = models.TextField()
     description = models.TextField()
